@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Applies to all scrollable elements */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #edf9fd; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3ebfa; /* Scrollbar color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a2c6e3; /* Color on hover (slightly darker) */
+}
+
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.react-calendar__navigation__label__labelText {
+  font-weight: 600;
+}
+
+.react-calendar__tile--active {
+  background-color: #c3ebfa !important;
+  color: black !important;
+}
