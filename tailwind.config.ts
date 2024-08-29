@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        mahtoSky: "#C3EBFA",
+        mahtoSkyLight: "#EDF9FD",
+        mahtoPurple: "#CFCEFF",
+        mahtoPurpleLight: "#F1F0FF",
+        mahtoYellow: "#FAE27C",
+        mahtoYellowLight: "#FEFCE8",
+      },
     },
   },
   plugins: [],
