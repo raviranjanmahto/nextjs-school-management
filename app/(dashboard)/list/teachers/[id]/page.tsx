@@ -52,19 +52,19 @@ const SingleTeacherPage = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
               <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
-                <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
+                <div className="w-full md:w-1/3 lg:w-full 2xl:w-auto flex items-center gap-2">
                   <Image src="/blood.png" alt="" width={14} height={14} />
                   <span>A+</span>
                 </div>
-                <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
+                <div className="w-full md:w-1/3 lg:w-full 2xl:w-auto flex items-center gap-2">
                   <Image src="/date.png" alt="" width={14} height={14} />
                   <span>January 2025</span>
                 </div>
-                <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
+                <div className="w-full md:w-1/3 lg:w-full 2xl:w-auto flex items-center gap-2">
                   <Image src="/mail.png" alt="" width={14} height={14} />
                   <span>user@gmail.com</span>
                 </div>
-                <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
+                <div className="w-full md:w-1/3 lg:w-full 2xl:w-auto flex items-center gap-2">
                   <Image src="/phone.png" alt="" width={14} height={14} />
                   <span>+1 234 567</span>
                 </div>
@@ -74,7 +74,7 @@ const SingleTeacherPage = () => {
           {/* SMALL CARDS */}
           <div className="flex-1 flex gap-4 justify-between flex-wrap">
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[47%] xl:w-[45%] 2xl:w-[47%]">
               <Image
                 src="/singleAttendance.png"
                 alt=""
@@ -88,7 +88,7 @@ const SingleTeacherPage = () => {
               </div>
             </div>
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[47%] xl:w-[45%] 2xl:w-[47%]">
               <Image
                 src="/singleBranch.png"
                 alt=""
@@ -102,7 +102,7 @@ const SingleTeacherPage = () => {
               </div>
             </div>
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[47%] xl:w-[45%] 2xl:w-[47%]">
               <Image
                 src="/singleLesson.png"
                 alt=""
@@ -116,7 +116,7 @@ const SingleTeacherPage = () => {
               </div>
             </div>
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[47%] xl:w-[45%] 2xl:w-[47%]">
               <Image
                 src="/singleClass.png"
                 alt=""
